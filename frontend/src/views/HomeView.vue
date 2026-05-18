@@ -15,24 +15,24 @@
   <!-- Default Home Page -->
   <div
     v-else
-    class="relative flex min-h-screen flex-col overflow-hidden bg-gradient-to-br from-gray-50 via-primary-50/30 to-gray-100 dark:from-dark-950 dark:via-dark-900 dark:to-dark-950"
+    class="relative flex min-h-screen flex-col overflow-hidden bg-gradient-to-br from-gray-50 via-orange-50/30 to-gray-100 dark:from-dark-950 dark:via-dark-900 dark:to-dark-950"
   >
     <!-- Background Decorations -->
     <div class="pointer-events-none absolute inset-0 overflow-hidden">
       <div
-        class="absolute -right-40 -top-40 h-96 w-96 rounded-full bg-primary-400/20 blur-3xl"
+        class="absolute -right-40 -top-40 h-96 w-96 rounded-full bg-orange-400/20 blur-3xl"
       ></div>
       <div
-        class="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-primary-500/15 blur-3xl"
+        class="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-orange-500/15 blur-3xl"
       ></div>
       <div
-        class="absolute left-1/3 top-1/4 h-72 w-72 rounded-full bg-primary-300/10 blur-3xl"
+        class="absolute left-1/3 top-1/4 h-72 w-72 rounded-full bg-orange-300/10 blur-3xl"
       ></div>
       <div
-        class="absolute bottom-1/4 right-1/4 h-64 w-64 rounded-full bg-primary-400/10 blur-3xl"
+        class="absolute bottom-1/4 right-1/4 h-64 w-64 rounded-full bg-orange-400/10 blur-3xl"
       ></div>
       <div
-        class="absolute inset-0 bg-[linear-gradient(rgba(20,184,166,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(20,184,166,0.03)_1px,transparent_1px)] bg-[size:64px_64px]"
+        class="absolute inset-0 bg-[linear-gradient(rgba(255,107,53,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,107,53,0.03)_1px,transparent_1px)] bg-[size:64px_64px]"
       ></div>
     </div>
 
