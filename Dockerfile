@@ -84,9 +84,9 @@ FROM ${POSTGRES_IMAGE} AS pg-client
 FROM ${ALPINE_IMAGE}
 
 # Labels
-LABEL maintainer="Wei-Shaw <github.com/Wei-Shaw>"
-LABEL description="Sub2API - AI API Gateway Platform"
-LABEL org.opencontainers.image.source="https://github.com/Wei-Shaw/sub2api"
+LABEL maintainer="GO GO API <github.com/KUN8964/GoGo-API>"
+LABEL description="GO GO API - AI API Gateway Platform"
+LABEL org.opencontainers.image.source="https://github.com/KUN8964/GoGo-API"
 
 # Install runtime dependencies
 RUN apk add --no-cache \
