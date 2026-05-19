@@ -19,6 +19,10 @@
   <svg v-else-if="platform === 'antigravity'" :class="sizeClass" viewBox="0 0 24 24" fill="currentColor">
     <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" />
   </svg>
+  <!-- DeepSeek logo (whale) -->
+  <svg v-else-if="platform === 'deepseek'" :class="sizeClass" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2C8 2 4 5 3 9c-.5 2 0 4.5 1.5 6.5L3 20l4-1.5c1.5 1 3.5 1.5 5.5 1.5 4 0 7.5-3 8.5-7 .5-2.5-.5-5-2-7l-2 1.5C15.5 6 13.5 5 12 5c-3 0-5.5 2.5-6 5.5-.3 2 .5 4 2 5.5l-2 1c-1-1.5-1.5-3.5-1-5.5C5.5 8 8.5 6 12 6c1 0 2 .3 3 .8L13 8l6-2-2 6-2-1.5c.5 2 .2 4-1 5.5-1 1-2.5 1.5-4 1-1-.3-1.8-1-2.2-2l-2 1c.8 1.5 2.2 2.5 4 2.8 2.5.3 5-.5 6.5-2.5.8-1 1.2-2.3 1.2-3.5 0-.5 0-1-.2-1.5C21.5 8 17.5 4 12 2z"/>
+  </svg>
   <!-- Fallback: generic platform icon -->
   <svg v-else :class="sizeClass" fill="currentColor" viewBox="0 0 24 24">
     <path
